@@ -1,0 +1,90 @@
+/* montserrat and lora */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Montserrat:wght@400;700&display=swap');
+
+
+h1 {
+  font-size: 38px;
+  color: white;
+}
+
+h1,
+.card-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+h2, h4,
+.card-text {
+  font-family: "Lora", serif;
+}
+
+h2, .card-text {
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.jumbotron {
+  background: none;
+  background-image: url("https://source.unsplash.com/qqruewVZ5Yk/1600x900");
+  background-position: bottom;
+  height: 490px;
+}
+
+.container {
+  padding-top: 100px;
+  margin: 0 auto;
+  width: 700px;
+}
+
+.container h1 {
+  margin-bottom: 20px;
+}
+
+.card {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.card-body {
+  width: 48rem;
+  margin: 0 auto;
+}
+
+.card-title {
+  color: #a0a0a0;
+  font-size: 27px;
+  font-weight: 400;
+}
+
+.card-text {
+  color: #494949;
+  font-size: 18px;
+  /* width: 50rem; */
+}
+
+
+.link {
+  color: #636363;
+  background-color: rgba(125, 255, 179, 0.3);
+  font-style: italic;
+}
+
+.link:hover {
+  color: black;
+  background-color: rgba(125, 255, 179, 1);
+}
+
+
+@media (max-width: 768px) {
+  .card-text {
+    width: 34rem;
+  }
+
+  .card-body {
+    width: auto;
+  }
+
+  .card {
+    padding: 2px;
+  }
+}
