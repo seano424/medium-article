@@ -25,10 +25,12 @@ h2, .card-text {
 
 .jumbotron {
   background: none;
-  background-image: url("https://source.unsplash.com/qqruewVZ5Yk/1600x900");
-  background-position: bottom;
+  background-image: url("https://source.unsplash.com/collection/travel-the-world/1600x900");
+  background-position: center;
   height: 490px;
 }
+
+
 
 .container {
   padding-top: 100px;
